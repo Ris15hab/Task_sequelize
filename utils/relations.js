@@ -1,6 +1,6 @@
 // const sequelize = require('sequelize')
 const Models = require('./Models');
-const db = require('../models/index');
+const db = require('./dbconnection');
 
 //user relations
 exports.modelRelationships = async () => {

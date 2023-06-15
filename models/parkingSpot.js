@@ -17,7 +17,7 @@
 // }
 
 const Sequelize=require('sequelize');
-const db=require('./index');
+const db=require('../utils/dbconnection');
 
 const parkingSpot = db.define("parkingSpot", {
     name: {

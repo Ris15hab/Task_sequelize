@@ -23,7 +23,7 @@
 // }
 
 const Sequelize=require('sequelize');
-const db=require('./index');
+const db=require('../utils/dbconnection');
 
 const log = db.define("log", {
     checkInTime: {

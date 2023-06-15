@@ -17,7 +17,7 @@
 
 
 const Sequelize=require('sequelize');
-const db=require('./index');
+const db=require('../utils/dbconnection');
 
 const userVehicle = db.define("userVehicle", {
     vehicleNumber: {

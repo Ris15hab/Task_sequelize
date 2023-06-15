@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-require('./models');
+require('./utils/dbconnection');
 //relations 
 require('./utils/relations').modelRelationships();
 

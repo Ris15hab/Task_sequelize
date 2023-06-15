@@ -26,7 +26,7 @@ const bcrypt = require('bcrypt');
 
 
 const Sequelize=require('sequelize');
-const db=require('./index');
+const db=require('../utils/dbconnection');
 
 const user = db.define("user", {
     name: {
